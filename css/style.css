@@ -1,9 +1,18 @@
+html {
+    justify-content: center;
+    align-items: center;
+}
+body {
+    max-width: 375px;
+}
+
 h3 {
     display: flex;
     text-decoration: bold;
     font-size: 24px;
     justify-content: center;
     align-items: center;
+    font-family: 'teko', sans-serif;
 }
 .topNav {
     background-color: #8FD9A8;
@@ -79,6 +88,11 @@ h1 {
     letter-spacing: 0.05em;
 
 }
+#carouselExampleCaptions {
+    width: 375px;
+    height: auto;
+    padding: 20px;
+}
 .footNav {
     display: flex;
     justify-content: space-between;
@@ -92,6 +106,7 @@ footer {
 }
 body {
     max-width: 375px;
+    
 }
 h4 {
     font-size: 18px;
@@ -100,4 +115,30 @@ h4 {
 h5 {
     font-size: 14px;
     color: #9C9A9A;
+}
+p {
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    animation: 6s;
+}
+
+@keyframes logo {
+    from {
+        transform: translate3d(0px, 0px, 0px);
+      }
+      25% {
+        transform: translate3d(50px, 25px, 0px);
+      }
+      50% {
+        transform: translate3d(100px, 50px, 0px);
+      }
+      75% {
+        transform: translate3d(200px, 100px, 0px);
+      }
+      to {
+        transform: translate3d(0px, 0px, 0px);
+      }
 }
